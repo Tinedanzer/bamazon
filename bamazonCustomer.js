@@ -10,7 +10,7 @@ function sqlObj(arg) {
     database: arg
     }
 };
-// establishes my variable to connection to the 'bamazon' databaze in MySQL
+// establishes my variable to the connection of the 'bamazon' databaze in MySQL
 const connection = mysql.createConnection(sqlObj("bamazon"));
 // establishes connection to MySQL database bamazon
 connection.connect(function(error_error_womp_womp) {
@@ -26,7 +26,6 @@ const twistedMetal = () =>{
 connection.query(qball, values, (e,r)=>{
     if (e) throw e;
 // I ran a for loop to better see the categories in a table-like dilly dally.
-
     for (let i = 0; i < r.length; i++) {
     console.log(`Item id: ${r[i].item_id}   Quantity: ${r[i].stock_quantity}  Price:${r[i].price}             
     Product: ${r[i].product_name}
@@ -39,7 +38,8 @@ connection.query(qball, values, (e,r)=>{
 // creating empty objects for the user responses from the two prompts.
 let output1= [];
 let output2= [];
-// store matching output requests inventory and price from database
+// store matching output requests, inventory and price, from the database
+// storing inventory to check to see if we  have enough; and price to output the customer's total.
 let storage1=[];
 let storagePrice=[];
 // needed to convert inquirer script to a function,
