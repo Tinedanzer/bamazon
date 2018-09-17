@@ -1,0 +1,30 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "The app will take in orders from customers and deplete stock from the store's inventory.",
+  "main": "main.js",
+  "dependencies": {
+    "inquirer": "^6.2.0",
+    "mysql": "^2.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tinedanzer/bamazon.git"
+  },
+  "keywords": [
+    "mysql",
+    "nodes.js",
+    "inquirer",
+    "\"mysql",
+    "server\""
+  ],
+  "author": "John Hill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tinedanzer/bamazon/issues"
+  },
+  "homepage": "https://github.com/Tinedanzer/bamazon#readme"
+}

@@ -1,4 +1,4 @@
-BAMAZON is a node-based, real-time store/check-out system using the MySQL local host database.
+BAMAZON is a Node.js-based, real-time store/check-out system using the MySQL local host database.
 
 Please check out the tutorial video here !
 
