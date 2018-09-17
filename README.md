@@ -6,7 +6,7 @@ BAMAZON is a Node.js-based, real-time store and check-out system using the MySQL
 
 2) From there, just simply replace 'port,user,password'  into the matching spots in the function sqlObj(arg) object!
 
-3)Run the sql code in MySql workbench, then run the javascript file in your node consule and enjoy the magic!
+3)Run the sql code in MySql workbench, then run the javascript file in your node console and enjoy the magic!
 
 ex: node .\bamazonCustomer.js
 
