@@ -12,4 +12,6 @@ BAMAZON is a Node.js-based, real-time store and check-out system using the MySQL
 
 ex: node .\bamazonCustomer.js
 
+https://github.com/Tinedanzer/bamazon
+
                                       Produced by John Hill !
