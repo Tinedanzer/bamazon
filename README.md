@@ -1,6 +1,6 @@
 BAMAZON is a Node.js-based, real-time store and check-out system using the MySQL local host database.
 
-  __Please check out the tutorial video__ [__right here!__](VideoTutorial/tutorial.webm)
+  __Please check out the tutorial video__ [__right here!__](VideoTutorial/tutorial.webm)https://tinedanzer.github.io/bamazon/VideoTutorial/tutorial.webm
 
 1)   In order for this to work for you, you will have to create your own localhost, MySQL server.
 
